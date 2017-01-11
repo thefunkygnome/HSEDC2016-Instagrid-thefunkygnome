@@ -1,3 +1,109 @@
+body {
+  overflow-y: hidden;
+}
+.header,
+.footer {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.header div,
+.footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;;
+  align-items: center;
+  height: 50px;
+  max-width: 1440px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  background-color: #2E2E2E;
+}
+
+.header div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer div {
+  padding: 0 28px 0 28px;
+}
+
+.header div a,
+.footer div a {
+  color: white;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+}
+.footer {
+  width: 100%;
+  top: 780px;
+  box-shadow: 0 -2px 4px 0 rgba(0,0,0,0.50);
+  background-color: rgb(20, 20, 20);
+}
+
+.logo {
+  display: block;
+  background-image: url(../img/logo.svg);
+  height: 35px;
+  width: 124px;
+  background-repeat: no-repeat;
+}
+
+.about a#name {
+  display: block;
+  position: fixed;
+  margin: 200px 20px 20px 100px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: underline;
+  color: #141414;
+}
+
+.about p#sum {
+  margin: 240px 20px 20px 100px;
+  display: block;
+  position: fixed;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: #141414;
+}
+
+.about p#sum2 {
+  margin: 570px 20px 20px 100px;
+  display: block;
+  position: fixed;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.about p#country {
+  margin: 573px 20px 20px 165px;
+  position: fixed;
+  display: block;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.about p#prof {
+  margin: 599px 20px 20px 138px;
+  position: fixed;
+  display: block;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
 figure {
   display: inline-block;
   background-size: cover;
@@ -7,29 +113,29 @@ div.gallery {
   display: flex;
   flex-direction: row;
   width: 2400px;
-  height: 800px;
+  height: 476px;
   justify-content: space-between;
-  /*margin-left: 230px;*/
+  top: 172px;
+  left: 500px;
 }
 
 div.small {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 800px;
+  width: 300px;
+  height: 476px;
   justify-content: space-between;
   padding: 0 5px 0 5px;
 }
 
 
 figure.big {
-  width: 800px;
-  height: 800px;
+  height: 476px;
 }
 
 figure.small {
-  width: 400px;
-  height: 400px;
+  width: 231px;
+  height: 231px;
 }
 .big#img1 {
   background-image: url(../img/1.jpg);

@@ -1,5 +1,6 @@
 .gallery {
   position: relative;
+  /*overflow: hidden;*/
 }
 
 .galleryRail {
@@ -13,9 +14,8 @@
 }
 
 .galleryRail figure.big {
-  width: 476px;
-  min-width: 476px;
-  margin: 0 7px 0 7px;
+  width: 800px;
+  min-width: 800px;
 }
 
 .galleryNav {
@@ -24,7 +24,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: calc(100% - -341px);
+  height: calc(100% - 51px);
 }
 
 .galleryNav div {

@@ -15,7 +15,7 @@ $(function() {
 
   function railTransition() {
     if (state.imageWidth <= 1440 && state.imageWidth >= 996) {
-      $('.galleryRail').css('transform', 'translateX(-' + state.currentImage * 768 + 'px)');
+      $('.galleryRail').css('transform', 'translateX(-' + state.currentImage * 1200 + 'px)');
     } else {
       $('.galleryRail').css('transform', 'translateX(-' + state.currentImage + '00vw)');
     }
