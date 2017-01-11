@@ -9,6 +9,7 @@ div.gallery {
   width: 2400px;
   height: 800px;
   justify-content: space-between;
+  /*margin-left: 230px;*/
 }
 
 div.small {
