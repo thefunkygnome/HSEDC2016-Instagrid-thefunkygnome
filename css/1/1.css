@@ -4,32 +4,29 @@ figure {
 }
 
 div.gallery {
+  height: 100vh;
+  position: absolute;
   display: flex;
   flex-direction: row;
-  width: 2400px;
-  height: 800px;
-  justify-content: space-between;
-  /*margin-left: 230px;*/
+  justify-content: flex-start;
 }
 
 div.small {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 800px;
+  height: 100vh;
   justify-content: space-between;
   padding: 0 5px 0 5px;
 }
 
-
 figure.big {
-  width: 800px;
-  height: 800px;
+  width: 100vh;
+  height: 100vh;
 }
 
 figure.small {
-  width: 397px;
-  height: 397px;
+  width: calc(50vh - 2.5px);
+  height: calc(50vh - 2.5px);
 }
 .big#img1 {
   background-image: url(../../img/1.jpg);
