@@ -54,11 +54,11 @@
   background-size: contain;
 }
 
-
 .about {
   position: fixed;
   display: block;
 }
+
 .about a#name {
   display: block;
   position: fixed;
@@ -108,31 +108,28 @@
   font-size: 18px;
 }
 
-
 figure {
-  display: inline-block;
+  display: block;
   background-size: cover;
+  z-index: 2;
 }
 
-.galleryRail {
-  width: 60vw;
-  z-index: 0;
-  height: 50vh;
-  overflow: scroll;
-  margin: 25vh 0 0 400px;
+.img-block {
   display: block;
+  width: 70vw;
+  height: 50vh;
+  /*border: 5px solid red;*/
+  overflow: scroll;
+  overflow-y: hidden;
+  margin: 25vh 0 0 400px;
   position: absolute;
 }
 
 div.gallery {
-  width: 500vw;
-  height: 50vh;
-  overflow-y: hidden;
+  width: 306vh;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  z-index: 0;
-  overflow: hidden;
+  overflow: auto;
+  height: 400px;
 }
 
 div.small {
@@ -151,28 +148,4 @@ figure.big {
 figure.small {
   width: calc(25vh - 2.5px);
   height: calc(25vh - 2.5px);
-}
-
-.big#img1 {
-  background-image: url(../img/1.jpg);
-}
-
-.big#img2 {
-  background-image: url(../img/4.jpg);
-}
-
-.small#img1 {
-  background-image: url(../img/2.jpg);
-}
-
-.small#img2 {
-  background-image: url(../img/3.jpg);
-}
-
-.small#img3 {
-  background-image: url(../img/5.jpg);
-}
-
-.small#img4 {
-  background-image: url(../img/6.jpg);
 }
