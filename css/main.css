@@ -81,7 +81,7 @@
 }
 
 .about p#sum2 {
-  margin: 570px 20px 20px 100px;
+  margin: 65vh 20px 20px 100px;
   display: block;
   position: fixed;
   font-family: 'helvetica neue', sans-serif;
@@ -91,7 +91,7 @@
 }
 
 .about p#country {
-  margin: 573px 20px 20px 165px;
+  margin: 65.4vh 20px 20px 165px;
   position: fixed;
   display: block;
   font-family: 'Helvetica Neue', sans-serif;
@@ -100,7 +100,7 @@
 }
 
 .about p#prof {
-  margin: 599px 20px 20px 138px;
+  margin: 69vh 20px 20px 138px;
   position: fixed;
   display: block;
   font-family: 'Helvetica Neue', sans-serif;
@@ -148,4 +148,20 @@ figure.big {
 figure.small {
   width: calc(25vh - 2.5px);
   height: calc(25vh - 2.5px);
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .about p#sum2 {
+    display: none;
+  }
+
+  .about p#country {
+    display: none;
+  }
+
+  .about p#prof {
+    display: none;
+  }
+
 }
