@@ -54,11 +54,6 @@
   background-size: contain;
 }
 
-
-.about {
-  position: fixed;
-  display: block;
-}
 .about a#name {
   display: block;
   position: fixed;
@@ -115,22 +110,16 @@ figure {
 }
 
 .galleryRail {
-  width: 60vw;
-  z-index: 0;
-  height: 50vh;
-  overflow: scroll;
-  margin: 25vh 0 0 400px;
-  display: block;
-  position: absolute;
+  overflow: auto;
 }
 
 div.gallery {
-  width: 500vw;
   height: 50vh;
-  overflow-y: hidden;
+  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin: 25vh 0 0 400px;
   z-index: 0;
   overflow: hidden;
 }
@@ -154,25 +143,25 @@ figure.small {
 }
 
 .big#img1 {
-  background-image: url(../img/1.jpg);
+  background-image: url(../../img/1.jpg);
 }
 
 .big#img2 {
-  background-image: url(../img/4.jpg);
+  background-image: url(../../img/4.jpg);
 }
 
 .small#img1 {
-  background-image: url(../img/2.jpg);
+  background-image: url(../../img/2.jpg);
 }
 
 .small#img2 {
-  background-image: url(../img/3.jpg);
+  background-image: url(../../img/3.jpg);
 }
 
 .small#img3 {
-  background-image: url(../img/5.jpg);
+  background-image: url(../../img/5.jpg);
 }
 
 .small#img4 {
-  background-image: url(../img/6.jpg);
+  background-image: url(../../img/6.jpg);
 }

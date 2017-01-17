@@ -1,0 +1,50 @@
+.btn-next,
+.btn-prev {
+  position: fixed;
+  margin-top: 47vh;
+  z-index: 9999;
+}
+.btn-next {
+  width: 50px;
+  height: 50px;
+  right: 15px;
+}
+
+.btn-prev {
+  width: 50px;
+  height: 50px;
+  left: 15px;
+}
+
+.nav-circle {
+  border-radius: 100px;
+  background-color: #2E2E2E;
+  box-shadow: 2px 4px 5px 0 rgba(0,0,0,0.50);
+  width: 50px;
+  height: 50px;
+}
+
+.nav-arrow-next,
+.nav-arrow-prev {
+  position: fixed;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  width: 13px;
+  height: 13px;
+  transform: rotate(-45deg);
+  margin: 16px 0 0 13px;
+}
+
+.nav-arrow-next {
+  transform: rotate(-45deg);
+  margin: 16px 0 0 13px;
+}
+
+.nav-arrow-prev {
+  transform: rotate(135deg);
+  margin: 16px 0 0 18px;
+}
+
+#disabled {
+  display: none;
+}
