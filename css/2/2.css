@@ -1,3 +1,6 @@
+* {
+  overflow: hidden;
+}
 .menu {
   display: flex;
   height: 100vh;

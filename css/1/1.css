@@ -1,3 +1,6 @@
+* {
+  overflow: hidden;
+}
 figure {
   display: inline-block;
   background-size: cover;
