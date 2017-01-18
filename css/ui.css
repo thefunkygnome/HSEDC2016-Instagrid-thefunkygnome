@@ -17,7 +17,7 @@
 }
 
 .nav-circle {
-  border-radius: 100px;
+  border-radius: 50%;
   background-color: #2E2E2E;
   box-shadow: 2px 4px 5px 0 rgba(0,0,0,0.50);
   width: 50px;
